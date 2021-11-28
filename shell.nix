@@ -31,12 +31,13 @@ let
       sha256 = "uhm6YJ/+YG7unKfrrBThDiPDgF3wuPcOvPql9nURQ2w=";
     } {};
     coinbene-api = haskell.lib.dontCheck hsuper.coinbene-api;
+    coinbene-connector = haskell.lib.dontCheck hsuper.coinbene-connector;
   });
 
 in myHask1.shellFor {
   packages = (p: with p; [
     FRTrader
-    coinbene-connector
+    # coinbene-connector
     # market-model
     # razao-base
     # reactive-banana

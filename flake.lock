@@ -3,32 +3,34 @@
     "coinbene-api": {
       "flake": false,
       "locked": {
-        "lastModified": 1564521424,
-        "narHash": "sha256-40cBStBVCG/2m7ECaA1AdGZ8mrfk25loieXkR43zMgA=",
+        "lastModified": 1556347998,
+        "narHash": "sha256-qClyQT1RVufuumZto1F6S+ioYN+d/5SzGKNgCaviEyQ=",
         "owner": "dimitri-xyz",
         "repo": "coinbene-api",
-        "rev": "47292ad67184965c0917105f549c46a2cc1570f3",
+        "rev": "899b6d0f1c4c4b7adfb90325f1ff8ecf86953c08",
         "type": "github"
       },
       "original": {
         "owner": "dimitri-xyz",
         "repo": "coinbene-api",
+        "rev": "899b6d0f1c4c4b7adfb90325f1ff8ecf86953c08",
         "type": "github"
       }
     },
     "coinbene-connector": {
       "flake": false,
       "locked": {
-        "lastModified": 1564637547,
-        "narHash": "sha256-R1/dHR+IC02osOtbgENtOoE1sxcgNvoGbkZk3QyBsHQ=",
+        "lastModified": 1558931770,
+        "narHash": "sha256-PZY+oalROJ062TDvNx+JUUlZGFCrvTmXecVInoXL5Kc=",
         "owner": "dimitri-xyz",
         "repo": "coinbene-connector",
-        "rev": "eb17ceb39bff4d79f33dd9852d89334c2d364c95",
+        "rev": "6591768e221696bbe3c6d635c87f8f391c0afe54",
         "type": "github"
       },
       "original": {
         "owner": "dimitri-xyz",
         "repo": "coinbene-connector",
+        "rev": "6591768e221696bbe3c6d635c87f8f391c0afe54",
         "type": "github"
       }
     },
@@ -60,22 +62,24 @@
       "original": {
         "owner": "dimitri-xyz",
         "repo": "market-interface",
+        "rev": "408943c819f21bb6a97f99e95b987431bee7f806",
         "type": "github"
       }
     },
     "market-model": {
       "flake": false,
       "locked": {
-        "lastModified": 1571163164,
-        "narHash": "sha256-bUVK2kjWHbNIHZ6pwFMr4lO4wjvFaWpUF0ifcvBA/3Q=",
+        "lastModified": 1558925615,
+        "narHash": "sha256-IvVfrmB3XJ3vXARNs1q+wLL09QeF6wDTgStlw1fY/98=",
         "owner": "dimitri-xyz",
         "repo": "market-model",
-        "rev": "d1d9950ad2b52d0d3fff7621b00772542330e10f",
+        "rev": "ab1674058ee39e556a7fcade4de260ff1bdb503a",
         "type": "github"
       },
       "original": {
         "owner": "dimitri-xyz",
         "repo": "market-model",
+        "rev": "ab1674058ee39e556a7fcade4de260ff1bdb503a",
         "type": "github"
       }
     },
@@ -97,16 +101,17 @@
     "razao-base": {
       "flake": false,
       "locked": {
-        "lastModified": 1564436993,
-        "narHash": "sha256-F8L84rG1GvATgHAZLHS547NV8jWgsWagT0TH/kWHZwY=",
+        "lastModified": 1543943633,
+        "narHash": "sha256-2k7e2X09yF1jqlWsRUjyO1n/QbeSOXwQsNDsiKnauAU=",
         "owner": "dimitri-xyz",
         "repo": "razao-base",
-        "rev": "e7a2f205e272f60fa03667282ad0f20aea33f0c9",
+        "rev": "5fc12c80aab9757f3aa1202d1abd4a7e172922df",
         "type": "github"
       },
       "original": {
         "owner": "dimitri-xyz",
         "repo": "razao-base",
+        "rev": "5fc12c80aab9757f3aa1202d1abd4a7e172922df",
         "type": "github"
       }
     },
