@@ -1,0 +1,127 @@
+{
+  "nodes": {
+    "coinbene-api": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1564521424,
+        "narHash": "sha256-40cBStBVCG/2m7ECaA1AdGZ8mrfk25loieXkR43zMgA=",
+        "owner": "dimitri-xyz",
+        "repo": "coinbene-api",
+        "rev": "47292ad67184965c0917105f549c46a2cc1570f3",
+        "type": "github"
+      },
+      "original": {
+        "owner": "dimitri-xyz",
+        "repo": "coinbene-api",
+        "type": "github"
+      }
+    },
+    "coinbene-connector": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1564637547,
+        "narHash": "sha256-R1/dHR+IC02osOtbgENtOoE1sxcgNvoGbkZk3QyBsHQ=",
+        "owner": "dimitri-xyz",
+        "repo": "coinbene-connector",
+        "rev": "eb17ceb39bff4d79f33dd9852d89334c2d364c95",
+        "type": "github"
+      },
+      "original": {
+        "owner": "dimitri-xyz",
+        "repo": "coinbene-connector",
+        "type": "github"
+      }
+    },
+    "flake-utils": {
+      "locked": {
+        "lastModified": 1637014545,
+        "narHash": "sha256-26IZAc5yzlD9FlDT54io1oqG/bBoyka+FJk5guaX4x4=",
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "rev": "bba5dcc8e0b20ab664967ad83d24d64cb64ec4f4",
+        "type": "github"
+      },
+      "original": {
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "type": "github"
+      }
+    },
+    "market-interface": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1558931208,
+        "narHash": "sha256-KogHvC0ZodRoOaNFHnZ5DYW3cAucQqBop1G/hZrNyWU=",
+        "owner": "dimitri-xyz",
+        "repo": "market-interface",
+        "rev": "408943c819f21bb6a97f99e95b987431bee7f806",
+        "type": "github"
+      },
+      "original": {
+        "owner": "dimitri-xyz",
+        "repo": "market-interface",
+        "type": "github"
+      }
+    },
+    "market-model": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1571163164,
+        "narHash": "sha256-bUVK2kjWHbNIHZ6pwFMr4lO4wjvFaWpUF0ifcvBA/3Q=",
+        "owner": "dimitri-xyz",
+        "repo": "market-model",
+        "rev": "d1d9950ad2b52d0d3fff7621b00772542330e10f",
+        "type": "github"
+      },
+      "original": {
+        "owner": "dimitri-xyz",
+        "repo": "market-model",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1622516815,
+        "narHash": "sha256-ZjBd81a6J3TwtlBr3rHsZspYUwT9OdhDk+a/SgSEf7I=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "7e9b0dff974c89e070da1ad85713ff3c20b0ca97",
+        "type": "github"
+      },
+      "original": {
+        "id": "nixpkgs",
+        "ref": "21.05",
+        "type": "indirect"
+      }
+    },
+    "razao-base": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1564436993,
+        "narHash": "sha256-F8L84rG1GvATgHAZLHS547NV8jWgsWagT0TH/kWHZwY=",
+        "owner": "dimitri-xyz",
+        "repo": "razao-base",
+        "rev": "e7a2f205e272f60fa03667282ad0f20aea33f0c9",
+        "type": "github"
+      },
+      "original": {
+        "owner": "dimitri-xyz",
+        "repo": "razao-base",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "coinbene-api": "coinbene-api",
+        "coinbene-connector": "coinbene-connector",
+        "flake-utils": "flake-utils",
+        "market-interface": "market-interface",
+        "market-model": "market-model",
+        "nixpkgs": "nixpkgs",
+        "razao-base": "razao-base"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}

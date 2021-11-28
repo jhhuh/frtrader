@@ -1,0 +1,16 @@
+cradle:
+  cabal:
+    - path: "src"
+      component: "lib:FRTrader"
+
+    - path: "app/Main.hs"
+      component: "FRTrader:exe:frt"
+
+    - path: "app/Main.hs"
+      component: "FRTrader:exe:frt-eth"
+
+    - path: "app/Main.hs"
+      component: "FRTrader:exe:frt-usdt"
+
+    - path: "test"
+      component: "FRTrader:test:test-FRTrader"
